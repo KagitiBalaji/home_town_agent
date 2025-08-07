@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to CheckMadi</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <h1>Welcome to CheckMadi</h1>
+            <a href="/register" class="register-btn">Register</a>
+        </div>
+    </header>
+
+    <!-- Page Body -->
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <ul>
+                <li><a href="/"><button>Buses</button></a></li>
+                <li><a href="/courses"><button>Courses</button></a></li>
+            </ul>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="content">
+            <h2>Search Bus Timings</h2>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="e.g., Hyderabad, Tirupati">
+                <button onclick="searchBuses()">Search</button>
+            </div>
+
+            <div id="results" class="results-container"></div>
+        </main>
+    </div>
+
+    <!-- JS Script -->
+    <script>
+        async function searchBuses() {
+            const query = document.getElementById('searchInput').value.trim();
+            if (!query) {
+                alert("Please enter a route to search");
+                return;
+            }
+
+            const response = await fetch(`/api/buses?q=${encodeURIComponent(query)}`);
+            const buses = await response.json();
+            displayResults(buses);
+        }
+
+        function displayResults(buses) {
+            const container = document.getElementById('results');
+            container.innerHTML = '';
+
+            if (buses.length === 0) {
+                container.innerHTML = '<p>No buses found for that route.</p>';
+                return;
+            }
+
+            buses.forEach(bus => {
+                const card = document.createElement('div');
+                card.className = 'bus-card';
+                card.innerHTML = `
+                    <h3>${bus.route}</h3>
+                    <p><strong>Bus Type:</strong> ${bus.bus_type}</p>
+                    <p><strong>Departure Times:</strong></p>
+                    <ul>${bus.formatted_times.map(time => `<li>${time}</li>`).join('')}</ul>
+                `;
+                container.appendChild(card);
+            });
+        }
+
+        document.getElementById("searchInput").addEventListener("keyup", e => {
+            if (e.key === "Enter") searchBuses();
+        });
+    </script>
+</body>
+</html>

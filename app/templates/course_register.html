@@ -1,0 +1,110 @@
+<!-- templates/course_register.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Course Registration</title>
+    <link rel="stylesheet" href="/static/style.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #eef2f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .form-container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        label {
+            display: block;
+            margin-top: 18px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        select {
+            width: 100%;
+            padding: 12px;
+            margin-top: 6px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+
+        button {
+            margin-top: 30px;
+            width: 100%;
+            padding: 14px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 25px;
+            color: #007bff;
+            text-decoration: none;
+            font-size: 15px;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Register for a Course</h1>
+
+        <form action="/course-register" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" name="name" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="text" name="phone" id="phone" required>
+
+            <label for="course">Course:</label>
+            <select name="course" id="course" required>
+                <option value="">-- Select Course --</option>
+                <option>Big Data</option>
+                <option>AWS</option>
+                <option>Data Science</option>
+                <option>Deep Learning</option>
+                <option>Gen AI</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <a href="/courses" class="back-link">← Back to Courses</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+fastapi[all]
+uvicorn[standard]
+sqlalchemy
+python-dotenv
+python-multipart
+jinja2

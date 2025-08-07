@@ -1,0 +1,25 @@
+<!-- templates/admin_course.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin - Course Registrations</title>
+    <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+    <h2>Course Registrations</h2>
+    <table>
+        <tr>
+            <th>Name</th><th>Email</th><th>Phone</th><th>Course</th><th>Registered At</th>
+        </tr>
+        {% for user in users %}
+        <tr>
+            <td>{{ user.name }}</td>
+            <td>{{ user.email }}</td>
+            <td>{{ user.phone }}</td>
+            <td>{{ user.course }}</td>
+            <td>{{ user.created_at }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

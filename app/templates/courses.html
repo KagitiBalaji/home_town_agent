@@ -1,0 +1,77 @@
+<!-- templates/courses.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Our Courses</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        .course-container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        ul.course-list {
+            list-style: square;
+            padding-left: 25px;
+            font-size: 18px;
+            line-height: 1.8;
+            color: #444;
+        }
+
+        ul.course-list li {
+            margin-bottom: 12px;
+        }
+
+        .btn-course-register {
+            display: block;
+            width: fit-content;
+            margin: 30px auto 0;
+            padding: 12px 24px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 16px;
+            transition: background 0.3s ease;
+        }
+
+        .btn-course-register:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="course-container">
+        <h1>Explore Our Courses</h1>
+
+        <ul class="course-list">
+            <li><strong>Big Data:</strong> HDFS, Hive, Spark, Scala, Python</li>
+            <li><strong>AWS:</strong> S3, Glue, Lambda, SNS, Redshift, Athena, etc.</li>
+            <li><strong>Data Science:</strong> Supervised & Unsupervised ML</li>
+            <li><strong>Deep Learning:</strong> CNN, ANN</li>
+            <li><strong>Gen AI:</strong> RAG, Prompt Engineering, LangChain, LlamaIndex</li>
+            <li><strong>Deployment:</strong> FastAPI, Streamlit, Autogen</li>
+        </ul>
+
+        <a href="/course-register" class="btn-course-register">Register for a Course</a>
+    </div>
+</body>
+</html>
