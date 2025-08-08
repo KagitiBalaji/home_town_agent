@@ -1,14 +1,297 @@
 [
   {
-    "route": "Bangalore",
-    "departure_times": ["05:00", "06:30", "16:00", "17:45", "19:30", "20:30"],
-    "bus_type": "EXP / SL"
+    "route": "Vijayawada",
+    "departure_times": ["RTC... Evening 5:15 pm"," RTC... Evening  6:00 pm","RTC Night 7:30 pm"],
+    "bus_type": "RTC/Private"
   },
+
   {
-    "route": "Chennai",
-    "departure_times": ["07:30", "12:00", "22:00"],
+    "route": "Srisailam",
+    "departure_times": ["RTC Afternnon 03:40 pm"],
+    "bus_type": "SL"
+  },
+
+  {
+    "route": "Markapuram",
+    "departure_times": ["Midnight 01:05 AM", "Afternoon 03:40 PM", "Night 11:00"],
+    "bus_type": "REGULAR"
+  },
+
+ {
+    "route": "kavali",
+    "departure_times": ["Midnight 01:00 AM","Afternoon 3:40 pm","Evening 6pm","Night 10:45 pm","Night 11:30 pm"],
     "bus_type": "EXP"
   },
+  
+  {
+    "route": "Nellore",
+    "departure_times": ["Midnight 01:00 AM","Night 2:15 Am","Afternoon 3:40 pm","Evening 6pm","Night 10:45 pm","Night 11:30 pm"],
+    "bus_type": "EXP"
+  },
+
+   {
+    "route": "Ongloe",
+    "departure_times": ["Night 10:45 pm"],
+    "bus_type": "EXP"
+  },
+
+  {
+    "route": "Chennai",
+    "departure_times": ["Night 12:15 am (via Thirupati)","Night 12:45 am (via Thirupati)","Night 01:15 am (via Thirupati)","Afternoon 12:00 pm (via chittoor)", " Night 10:00 pm (via chittoor)"," Night 10:45 pm (via chittoor)","Night 11:45 pm (via Thirupati)"],
+    "bus_type": "EXP"
+  },
+
+  {
+    "route": "Vellore",
+    "departure_times": ["Night 01:00 AM ","Night 02:25 AM","Morning 10:45 AM"],
+    "bus_type": "REGULAR"
+  },
+
+  {
+    "route": "Hyderabad",
+    "departure_times": ["Evening 05:00","Evening 06:00","Night 07:00","Night 07:45","Night 08:00","Night 08:30","Night 08:45"], 
+    "bus_type": "RTC"
+  },
+
+  {
+    "route": "Secunderabad - JBS",
+    "departure_times": ["Evening 06:00"],
+    "bus_type": "RTC"
+  },
+
+  {
+    "route": "Jeedimetla",
+    "departure_times": ["Night 08:00"],
+    "bus_type": "RTC"
+  },
+  {
+    "route": "Madakasira-Pavagada",
+    "departure_times": ["Night 11:00"],
+    "bus_type": "RTC"
+  },
+
+   {
+    "route": "Penukonda",
+    "departure_times": ["Evening 04:30"],
+    "bus_type": "RTC"
+  }, 
+  
+  {
+    "route": "Kalyanadurgam",
+    "departure_times": ["Afternoon 12:00"],
+    "bus_type": "RTC"
+  }, 
+  
+  {
+    "route": "Dharmavaram",
+    "departure_times": ["Night 01:15"],
+    "bus_type": "RTC"
+  }, 
+  
+  {
+    "route": "Puttaparthi",
+    "departure_times": ["Afternnon 03:30"],
+    "bus_type": "RTC"
+  }, 
+  
+  {
+    "route": "Rayadurgam",
+    "departure_times": ["Night 12:35","Night 01:00","Night 02:00"],
+    "bus_type": "RTC"
+  }, 
+  
+  {
+    "route": "Guntakallu",
+    "departure_times": ["Night 03:15", "Morning 09:05"],
+    "bus_type": "RTC"
+  },
+  
+  {
+    "route": "Kadapa",
+    "departure_times": [
+      "Night 12:45 (Amaravthi/Indra) ", "Night 02:00 (Amaravthi/Indra)", "Night 02:10 (Ultra Delux)", " Night 02:15", " Night 02:25", " Night 02:30", "Night 03:00", "Morning 05:00",
+      "Morning 05:30", " Morning 06:00", " Morning 06:30", "Morning 07:00", " Morning 07:30", " Morning 07:45", "Morning 08:30", " Morning 08:30",
+      "Morning 09:30", "Morning 10:00", "Morning 10:45", "Morning 11:00", "Morning 11:20 (Ultra Delux)", "Afternnon 12:00", "Afternnon 12:30",
+      "Afternnon Amaravthi/Indra 12:45","Afternnon 12:45", "Afternnon 13:00", "Afternnon 13:30", "Afternnon 13:45", "Afternoon  14:15 (Amaravthi/Indra)", "Afternoon  14:30", " Afternoon  15:00", " Afternoon 15:30",
+      "Evening 16:00", " Evening 17:30", "Evening 18:00", "Evening Amaravthi/Indra 18:30", "Evening 18:30", "Evening 20:00","Evening 21:00"
+    ],
+    "bus_type": "RTC"
+  },
+
+  {
+    "route": "Proddaturu",
+    "departure_times": ["Night 02:10", "Night 02:15"],
+    "bus_type": "RTC"
+  },
+  
+  {
+    "route": "Jammalamadugu",
+    "departure_times": ["Night 03:15", "Morning 09:05"],
+    "bus_type": "RTC"
+  },
+  {
+    "route": "Badvel",
+    "departure_times": ["Night 01:15", "Night 03:00","Morning 08:00","Morning 08:55"],
+    "bus_type": "RTC"
+  },
+
+  {
+    "route": "Rajampeta",
+    "departure_times": ["Morning 11:00", "Evening  06:45"],
+    "bus_type": "RTC"
+  },
+  {
+    "route": "Mythkuru",
+    "departure_times": ["Morning 10:10"],
+    "bus_type": "RTC"
+  },
+   {
+    "route": "Podhili",
+    "departure_times": ["Night  00:05"],
+    "bus_type": "RTC"
+  },
+  
+  {
+    "route": "Anathapuram",
+    "departure_times": [
+      "Night  00:35", "Night  01:00", "Night  01:45", "Night  02:00", "Night  02:45", "Night  03:15", "Early Morning 05:00",
+      "Morning  06:00", "Morning  06:30", "Morning  07:00", "Morning  07:30", "Morning  08:00", "Morning  08:30","Morning  08:45", "Morning  09:05", "Morning  09:30",
+       "Morning  11:00", "Morning 11:15", "Afternoon  12:00", "Afternoon  01:00",
+      "Afternoon  02:15", "Afternoon 03:00", " Evening 05:15", " Night 07:30", "Night 11:15"
+    ],
+  
+    "bus_type": "RTC"
+  },
+
+   {
+    "route": "Hindhupuram",
+    "departure_times": [
+      "Night  01:30", "Night  02:15", "Night  02:20", "Morning  10:45", "Afternoon  12:00", "Afternoon   01:30", "Evening  04:30", "Evening  06:00", "Night  11:45"
+    ],
+    "bus_type": "RTC"
+  },
+
+  {
+    "route": "Urvakonda",
+    "departure_times": ["Night 01:00", "Night 21:00", "Night 22:00"],
+    "bus_type": "RTC"
+  },
+   {
+    "route": "Kurnool",
+    "departure_times": [ "Night 11:00"],
+    "bus_type": "RTC"
+  },
+  
+   {
+    "route": "Alagadda",
+    "departure_times": [ "Night 11:30"],
+    "bus_type": "RTC"
+  },
+  {
+    "route": "Mantralayam",
+    "departure_times": [ "Morning 08:30"],
+    "bus_type": "RTC"
+  },
+  
+  {
+    "route": "Ballery",
+    "departure_times": [ "Night 07:30","Night 11:45"],
+    "bus_type": "RTC"
+  },
+  {
+    "route": "Hospate",
+    "departure_times": [ "Night 07:30"],
+    "bus_type": "RTC"
+  },
+  {
+    "route": "Atamakuru",
+    "departure_times": [ "Night 11:20","Night 11:55","Night 00:45"],
+    "bus_type": "RTC"
+  },
+  {
+    "route": "Udayagiri",
+    "departure_times": [ "Night 11:45","Night 12:05"],
+    "bus_type": "RTC"
+  },
+  {
+    "route": "Kandukuru",
+    "departure_times": [ "Night 09:15","Night 12:10"],
+    "bus_type": "RTC"
+  },
+  {
+    "route": "Kanigiri",
+    "departure_times":  [ "Night 11:45","Night 12:40"],
+    "bus_type": "RTC"
+  },
+  {
+    "route": "Palamaneru",
+    "departure_times": [ "Morning 06:00 AM to Night 8:30 PM .....Every 30 minutes one bus"],
+    "bus_type": "RTC"
+  },
+
+{
+    "route": "Punganuru",
+    "departure_times": [ "Morning 06:00 AM to Night 8:30 PM .....Every 30 minutes one bus"],
+    "bus_type": "RTC"
+  },
+   {
+    "route": "Kuppam",
+    "departure_times":  [ "Night 02:45"," Early Morning 04:00","Evening   6:15"],
+    "bus_type": "RTC"
+  },
+{
+    "route": "Satyavedu",
+    "departure_times":  [ "Morning 11:30"],
+    "bus_type": "RTC"
+  },
+{
+     "route": "Chittoor",
+    "departure_times":  [
+      "01:00", "02:25", "04:30", "05:00", "05:30", "06:00", "06:30", "07:00",
+      "07:30", "07:40", "08:00", "08:30", "09:00", "09:30", "10:00", "10:20",
+      "10:40", "11:00", "11:20", "11:40", "12:00", "12:30", "13:00", "13:30",
+      "14:00", "14:30", "15:00", "15:30", "16:00", "16:20", "17:00",
+      "17:20", "17:40", "18:00", "18:20", "19:00"
+    ],
+
+    "bus_type": "RTC"
+  }
+  ,
+  {
+    "route": "thirupathi",
+    "departure_times":  [
+      "Express for every 20 mins from [ 4 AM to 9PM ]",
+      "Electric AC 05:00", "Electric AC  06:00", "Electric AC  07:00", " Electric AC 08:00", "Electric AC  09:00", "Electric AC 10:00", "Electric AC 11:00", "Electric AC 12:00",
+      "Electric AC 13:00", "Electric AC 14:00", "Electric AC 15:00", "Electric AC 16:00", "Electric AC 17:00", "Electric AC 18:00", "Electric AC 19:00", "Electric AC 20:00", "Electric AC 20:45",
+    "(Signal Stop Ultra delux) 05:20", "(Signal Stop Ultra delux) 06:20", "(Signal Stop Ultra delux) 06:40", " (Signal Stop Ultra delux) 07:20", "(Signal Stop Ultra delux) 07:40", "(Signal Stop Ultra delux) 08:20", " (Signal Stop Ultra delux) 09:20", "(Signal Stop Ultra delux) 10:40", 
+       "(Signal Stop Ultra delux) 11:20", " (Signal Stop Ultra delux) 12:20", " (Signal Stop Ultra delux) 13:00", " (Signal Stop Ultra delux) 14:20", " (Signal Stop Ultra delux) 14:40", "(Signal Stop Ultra delux) 15:30", " (Signal Stop Ultra delux) 16:40", 
+      "(Signal Stop Ultra delux) 17:40", " (Signal Stop Ultra delux) 18:40", " (Signal Stop Ultra delux) 19:20"],
+    "bus_type": "RTC"
+  }
+  ,
+  
+  
+  {
+    "route": "B kothakota",
+    "departure_times": ["03:45 AM"," From 5AM to 6:15 PM every 15 mins one bus available ", "Evening 6:45 PM",
+    "Night 7:00 PM","Night 7:30 PM","Night 8:00 PM","Night 8:45 PM","Night 9:30 PM","Night 10:15 PM"],
+    "bus_type": "EXP"
+  }
+  ,
+  {
+    "route": "Bangalore",
+    "departure_times":  [
+      "Night  00:15  (Amaravthi/Indra)", "Night  00:30", "Night  00:45", "Night  01:10", "Night  01:15", "Night  01:20", "Night  01:25", "Night  01:45  (Amaravthi/Indra)",
+      "Night  01:45","Night  01:50", "Night  01:50","Night  02:00", "Night  02:05", "Night  02:10", "Night  02:30", "Night  02:30","Night  02:30", "Night  02:45  (Amaravthi/Indra)","Night  02:45","Night  02:45","Night  02:55",
+      "Night  03:30", "Night  03:45", " Morning  04:00","Morning  04:30", "Morning  05:00", "Morning  05:30", "Morning  06:00", "Morning  06:30",
+      "Morning  07:00", "Morning  07:15", "Morning  07:30", "Morning  08:00", "Morning  09:15", "Morning  09:30", "Morning  09:45", "Morning  10:30","Morning  10:30",
+      "Morning  11:10", "Morning  11:30", "Afternoon 12:30", "Afternoon 12:45", "Afternoon 01:00", "Afternoon 01:15", "Afternoon 01:30   (Amaravthi/Indra)", "Afternoon 01:45",
+      "Afternoon 02:00","Afternoon 02:00", "Afternoon 02:10", "Afternoon 02:30", "Afternoon 02:00", "Afternoon 02:00","Afternoon 03:00    (Amaravthi/Indra)","Afternoon 03:00","Afternoon 03:25    (Amaravthi/Indra)", "Afternoon 03:35", "Evening  04:00", "Evening  04:15",
+      "Evening  04:30", "Evening  04:55    (Amaravthi/Indra)", "Evening  05:30", "Evening  05:45", "Evening  06:30", "Evening  07:00","Evening  07:00", "Evening  07:45", "Evening  10:45", "Evening  11:50"
+    ],
+    "bus_type": "EXP / SL"
+  },
+  
   {
     "route": "Hospet",
     "departure_times": ["19:30"],
@@ -19,16 +302,8 @@
     "departure_times": ["23:45"],
     "bus_type": "SL"
   },
-  {
-    "route": "Vijayawada",
-    "departure_times": ["17:15"],
-    "bus_type": "SL"
-  },
-  {
-    "route": "Srisailam",
-    "departure_times": ["15:40"],
-    "bus_type": "SL"
-  },
+  
+  
   {
     "route": "BHEL",
     "departure_times": ["17:00", "18:00", "20:30"],
@@ -36,8 +311,8 @@
   },
   {
     "route": "Hyderabad",
-    "departure_times": ["Murali krisghna 01:05", "15:40", " sharif 17:00", "18:00", "Divakar 19:00", "19:45", "20:00", "20:30", "23:00"],
-    "bus_type": "SL"
+    "departure_times": ["Evening 05:00","Evening 06:00","Night 07:00","Night 07:45","Night 08:00","Night 08:30","Night 08:45"], 
+    "bus_type": "RTC"
   },
   {
     "route": "Kurnool",
@@ -54,31 +329,25 @@
     "departure_times": ["13:15", "16:15"],
     "bus_type": "SL"
   },
-  {
-    "route": "Bangalore (return buses)",
-    "departure_times": ["01:50", "03:00", "08:00", "08:55"],
-    "bus_type": "SL"
-  },
+ 
   {
     "route": "Tirupati",
     "departure_times": ["evening 5:15 pm", "sayankalam 6 pm", "19:30"],
     "bus_type": "REGULAR"
   },
-  {
-    "route": "Vellore",
-    "departure_times": ["11:00", "18:45"],
-    "bus_type": "REGULAR"
-  },
+  
   {
     "route": "Kadapa",
-    "departure_times": ["00:45", "01:00", "01:30", "02:15", "03:00", "05:00", "05:30", "06:30", "07:00", "07:30", "08:00", "08:30", "09:00", "10:00", "10:30", "11:00", "11:20", "12:00", "12:30", "12:45", "13:00", "13:30", "14:00", "14:30", "15:00", "15:45", "16:30", "17:00", "17:30", "18:00", "18:30", "18:45", "19:30", "20:00", "21:00"],
+    "departure_times": [
+      "Night 12:45 (Amaravthi/Indra) ", "Night 02:00 (Amaravthi/Indra)", "Night 02:10 (Ultra Delux)", " Night 02:15", " Night 02:25", " Night 02:30", "Night 03:00", "Morning 05:00",
+      "Morning 05:30", " Morning 06:00", " Morning 06:30", "Morning 07:00", " Morning 07:30", " Morning 07:45", "Morning 08:30", " Morning 08:30",
+      "Morning 09:30", "Morning 10:00", "Morning 10:45", "Morning 11:00", "Morning 11:20 (Ultra Delux)", "Afternnon 12:00", "Afternnon 12:30",
+      "Afternnon Amaravthi/Indra 12:45","Afternnon 12:45", "Afternnon 13:00", "Afternnon 13:30", "Afternnon 13:45", "Afternoon  14:15 (Amaravthi/Indra)", "Afternoon  14:30", " Afternoon  15:00", " Afternoon 15:30",
+      "Evening 16:00", " Evening 17:30", "Evening 18:00", "Evening Amaravthi/Indra 18:30", "Evening 18:30", "Evening 20:00","Evening 21:00"
+    ],
     "bus_type": "REGULAR"
   },
-  {
-    "route": "Chittoor",
-    "departure_times": ["00:15", "00:45", "01:15", "03:15", "04:30", "05:00", "06:00"],
-    "bus_type": "REGULAR"
-  },
+  
   {
     "route": "Rayachoti",
     "departure_times": ["01:15", "03:00", "05:00", "07:00"],
@@ -88,5 +357,92 @@
     "route": "Tiruttani",
     "departure_times": ["02:45", "05:00", "06:30", "07:00", "07:45", "09:15", "09:50", "10:15", "11:15", "12:15", "13:15", "14:15", "15:15", "16:15", "17:15"],
     "bus_type": "REGULAR"
+  },
+   {
+    "route": "kadiri",
+    "departure_times": ["From Morning 05:10 to Night 07:00 for every 15 mins one bus avaiable" ],
+    "bus_type": "REGULAR"
+  },
+   {
+    "route": "Horsellyhills",
+    "departure_times": ["Morning 6:30", "Evening 5:15",
+    "This buses will return on immediately just drop and come, who want to go plan accrodingly","No return buses after Evening 6PM"],
+    "bus_type": "REGULAR"
+  },
+   
+   {
+    "route": "Chellur",
+    "departure_times": ["Morning 05:00", "Morning 11:20", "Night 07:30"],
+    "bus_type": "REGULAR"
+  },
+   {
+    "route": "Mekalavaripalli",
+    "departure_times": ["Morning 08:05", "Evening 5:50 PM"],
+    "bus_type": "REGULAR"
   }
+   ,{
+    "route": "Lakkasamudram",
+    "departure_times": ["Morning 06:10", "Evening 4:30 PM"],
+    "bus_type": "REGULAR"
+  }
+  ,
+  {
+    "route": "Muddaladodi",
+    "departure_times": ["Morning 07:45", "Evening 4:30 PM"],
+    "bus_type": "REGULAR"
+  }
+,
+{
+    "route": "Renumakulapalli",
+    "departure_times": ["Morning 07:45", "Night 7:45 PM"],
+    "bus_type": "REGULAR"
+  },
+  {
+    "route": "Malepadu",
+    "departure_times": ["Morning 06:00", "Evening 6:00 PM"],
+    "bus_type": "REGULAR"
+  }
+,
+{
+    "route": "Adivilopalli",
+    "departure_times": ["Morning 08:00", "Evening 04:25 PM"],
+    "bus_type": "REGULAR"
+  },
+
+  {
+    "route": "Sakamvaripalli",
+    "departure_times": ["Morning 05:45","Afternoon 03:00"],
+    "bus_type": "REGULAR"
+  },
+  
+
+  {
+    "route": "NP kunta",
+    "departure_times": ["Morning 07:45","Morning 10:45", "Evening 05:50 PM"],
+    "bus_type": "REGULAR"
+  },
+  {
+    "route": "Mulabagal",
+    "departure_times": ["Morning 06:40","Morning 08:00", "Afternoon 12:40","Afternoon 03:15","Evening 05:30 PM"],
+    "bus_type": "REGULAR"
+  },
+  {
+    "route": "Thimmamma Marrimanu",
+    "departure_times": ["Morning 07:40","Morning 09:40", "Afternoon 01:40 PM"],
+    "bus_type": "REGULAR"
+  },
+
+  {
+    "route": "Thettu",
+    "departure_times": ["Morning 06:00","Morning 08:00","Morning 10:00", "Afternoon 12:00","Afternoon 02:00","Evening 04:00","Evening 06:00 PM", "Night 09:30 PM"],
+    "bus_type": "REGULAR"
+  },
+
+  
+  {
+    "route": "Divitivaripalle",
+    "departure_times": ["Morning 06:20","Morning 08:25","Morning 11:00", "Evening 05:00", "Night 08:00"],
+    "bus_type": "REGULAR"
+  }
+
 ]
